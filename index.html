@@ -1,12 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Danielle M. Sands, strategic program leader and emerging front-end developer.">
+  <title>Danielle M. Sands | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <!-- Keyboard users can skip the navigation and move directly to the page content. -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Danielle Sands home">DS<span>.</span></a>
+
+      <!-- CSS-only mobile menu: the checkbox controls whether the links are visible. -->
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Open navigation menu">
+      <label class="nav-toggle-label" for="nav-toggle" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Strategic leadership meets modern technology</p>
+          <h1>Hi, I’m <span>Danielle M. Sands.</span></h1>
+          <p class="hero-title">Program Leader &amp; Emerging Front-End Developer</p>
+          <p class="hero-description">
+            I bring 20 years of leadership in complex, secure technical environments to a new chapter in software development. I am building responsive, user-focused web experiences while applying the discipline, collaboration, and problem-solving skills developed throughout my Air Force career.
+          </p>
+          <div class="button-group">
+            <a class="button button-primary" href="#projects">View My Projects</a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+          <div class="hero-highlights" aria-label="Professional highlights">
+            <div><strong>20+</strong><span>Years of leadership</span></div>
+            <div><strong>PMP</strong><span>Project management</span></div>
+            <div><strong>MBA</strong><span>Logistics</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <!-- Replace the data image below with: src="images/profile-photo.jpg" -->
+            <img
+              class="profile-photo"
+              src="Headshot.jpg"
+              alt="Professional headshot of Danielle M. Sands"
+              width="700"
+              height="820">
+          </div>
+          <div class="floating-card">
+            <span class="status-dot" aria-hidden="true"></span>
+            Open to front-end, software, and program leadership opportunities
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">About me</p>
+          <h2>Leadership, engineering, and a passion for building.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="about-copy card">
+            <h3>My story</h3>
+            <p>
+              I am a retired Air Force officer and senior maintenance, logistics, and program leader with experience guiding large technical organizations, managing complex resources, and delivering results in high-tempo environments.
+            </p>
+            <p>
+              Today, I am expanding that foundation through AI-centric software engineering training. My goal is to combine technical leadership, program execution, and front-end development to build reliable, accessible solutions that make difficult work easier for people.
+            </p>
+            <p>
+              I enjoy learning web development, turning complicated information into clear experiences, and exploring how AI-assisted tools can support thoughtful, responsible problem-solving.
+            </p>
+          </article>
+
+          <div class="about-details">
+            <article class="detail-card">
+              <span class="detail-number">01</span>
+              <div>
+                <h3>Education</h3>
+                <p>MBA in Logistics, BS in Aerospace Engineering, and a Graduate Certificate in Analytical Test Design.</p>
+              </div>
+            </article>
+            <article class="detail-card">
+              <span class="detail-number">02</span>
+              <div>
+                <h3>Career direction</h3>
+                <p>Front-end development, AI-assisted software engineering, technical program management, and mission-focused technology leadership.</p>
+              </div>
+            </article>
+            <article class="detail-card">
+              <span class="detail-number">03</span>
+              <div>
+                <h3>What I value</h3>
+                <p>Clear communication, disciplined execution, accessible design, continuous learning, and technology with practical impact.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-tinted" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>A blend of technical learning and proven leadership.</h2>
+          <p>Technical items below reflect current training and coursework. They are intentionally separated from established professional capabilities.</p>
+        </div>
+
+        <div class="skills-layout">
+          <article class="skill-group">
+            <h3>Web development training</h3>
+            <div class="skill-badges">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Responsive Design</span>
+              <span>JavaScript Fundamentals</span>
+              <span>React Fundamentals</span>
+              <span>Git &amp; GitHub</span>
+              <span>AI-Assisted Development</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Professional expertise</h3>
+            <div class="skill-cards">
+              <div class="skill-card"><strong>Program Management</strong><p>Cost, schedule, risk, performance, and lifecycle oversight.</p></div>
+              <div class="skill-card"><strong>Strategic Leadership</strong><p>Cross-functional teams, resource alignment, and executive communication.</p></div>
+              <div class="skill-card"><strong>Systems &amp; Sustainment</strong><p>Configuration discipline, readiness, compliance, and secure operations.</p></div>
+              <div class="skill-card"><strong>Data &amp; Analysis</strong><p>Metrics, trend analysis, evidence review, and decision support.</p></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE AND EDUCATION -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Experience &amp; education</p>
+          <h2>Two decades of mission-focused leadership.</h2>
+        </div>
+
+        <div class="experience-layout">
+          <div>
+            <h3 class="column-title">Professional experience</h3>
+            <div class="timeline">
+              <article class="timeline-item">
+                <p class="timeline-date">2025–2026</p>
+                <h3>Director of Logistics, Maintenance &amp; Engineering</h3>
+                <p class="organization">United States Air Force · Cannon AFB, New Mexico</p>
+                <ul>
+                  <li>Directed enterprise sustainment and engineering operations for a $6.1B aircraft fleet.</li>
+                  <li>Led technical teams and resource allocation across global operations.</li>
+                  <li>Executed mission-critical programs requiring secure operations and configuration discipline.</li>
+                </ul>
+              </article>
+
+              <article class="timeline-item">
+                <p class="timeline-date">2023–2025</p>
+                <h3>Deputy Maintenance Group Commander</h3>
+                <p class="organization">United States Air Force · Cannon AFB, New Mexico</p>
+                <ul>
+                  <li>Led strategic planning, lifecycle sustainment, and budget execution for a large technical enterprise.</li>
+                  <li>Directed a $5.6M budget with detailed cost, schedule, risk, and compliance oversight.</li>
+                  <li>Developed mitigation strategies to maintain continuity in high-tempo operations.</li>
+                </ul>
+              </article>
+
+              <article class="timeline-item">
+                <p class="timeline-date">2021–2023</p>
+                <h3>Branch Lead, Special Operations &amp; Bomber Maintenance</h3>
+                <p class="organization">Headquarters U.S. Air Force · Pentagon</p>
+                <ul>
+                  <li>Led enterprise sustainment policy, compliance, and multi-domain coordination.</li>
+                  <li>Collaborated across engineering, contracting, human resources, and senior leadership.</li>
+                  <li>Prepared high-visibility technical briefings for senior and Congressional audiences.</li>
+                </ul>
+              </article>
+
+              <article class="timeline-item">
+                <p class="timeline-date">2014–2018</p>
+                <h3>Program Manager, Operational Test &amp; Evaluation</h3>
+                <p class="organization">Air Force Operational Test and Evaluation Center · Kirtland AFB, New Mexico</p>
+                <ul>
+                  <li>Led multidisciplinary analytical projects supporting major Department of Defense programs.</li>
+                  <li>Developed metrics and trend analysis for 43 programs valued at $133B.</li>
+                  <li>Built structured approaches for data collection, evidence review, and compliance assessment.</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+
+          <aside>
+            <h3 class="column-title">Education &amp; credentials</h3>
+            <div class="education-list">
+              <article class="education-card">
+                <p class="timeline-date">In progress: 2026–2027</p>
+                <h3>AI-Centric Software Engineering Bootcamp</h3>
+                <p>QuickStart</p>
+              </article>
+              <article class="education-card">
+                <p class="timeline-date">2010</p>
+                <h3>Master of Business Administration, Logistics</h3>
+                <p>Trident University International</p>
+              </article>
+              <article class="education-card">
+                <p class="timeline-date">2006</p>
+                <h3>Bachelor of Science, Aerospace Engineering</h3>
+                <p>Embry-Riddle Aeronautical University</p>
+              </article>
+              <article class="education-card">
+                <p class="timeline-date">2016</p>
+                <h3>Graduate Certificate, Analytical Test Design</h3>
+                <p>Air Force Institute of Technology</p>
+              </article>
+              <article class="education-card compact-card">
+                <h3>Professional credentials</h3>
+                <p>PMP · Agile Certified Practitioner · DAU Level II, Test &amp; Evaluation</p>
+              </article>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-tinted" id="projects">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div>
+            <p class="eyebrow">Selected projects</p>
+            <h2>Work in progress and space to grow.</h2>
+          </div>
+          <p>Replace these starter cards with screenshots, descriptions, and valid links as you complete each project.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-image project-image-one" role="img" aria-label="Purple dashboard project placeholder">
+              <span>Project screenshot</span>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Current project</p>
+              <h3>Professional Portfolio Website</h3>
+              <p>A responsive portfolio that presents my leadership background, technical training, and developing project work.</p>
+              <ul class="tech-list" aria-label="Technologies used">
+                <li>HTML5</li><li>CSS3</li><li>Responsive Design</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" aria-label="Live demo placeholder for Professional Portfolio Website">Live Demo <span aria-hidden="true">↗</span></a>
+                <a href="#" aria-label="GitHub repository placeholder for Professional Portfolio Website">GitHub Repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image project-image-two" role="img" aria-label="Task application project placeholder">
+              <span>Add screenshot</span>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Learning project placeholder</p>
+              <h3>Interactive Task Application</h3>
+              <p>Add a short description of the problem, your approach, and the features you built after completing this project.</p>
+              <ul class="tech-list" aria-label="Planned technologies">
+                <li>Replace</li><li>With</li><li>Your Tech</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" aria-label="Live demo placeholder for Interactive Task Application">Live Demo <span aria-hidden="true">↗</span></a>
+                <a href="#" aria-label="GitHub repository placeholder for Interactive Task Application">GitHub Repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image project-image-three" role="img" aria-label="AI web application project placeholder">
+              <span>Add screenshot</span>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Future project placeholder</p>
+              <h3>AI-Enabled Web Application</h3>
+              <p>Use this card for a future capstone or AI-assisted application. Update the text only after the project is complete.</p>
+              <ul class="tech-list" aria-label="Technologies to be determined">
+                <li>Tech TBD</li><li>Tech TBD</li><li>Tech TBD</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" aria-label="Live demo placeholder for AI-Enabled Web Application">Live Demo <span aria-hidden="true">↗</span></a>
+                <a href="#" aria-label="GitHub repository placeholder for AI-Enabled Web Application">GitHub Repository <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something meaningful.</h2>
+          <p>I am interested in opportunities that connect technology, program leadership, user-centered design, and mission impact.</p>
+          <div class="contact-links">
+            <a href="mailto:ironskillet59@yahoo.com">ironskillet59@yahoo.com</a>
+            <a href="https://github.com/ironskillet23" target="_blank" rel="noopener noreferrer">GitHub: ironskillet23 <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="form-note"><strong>Important:</strong> This demonstration form cannot send messages by itself. A working form requires a backend or form service such as Formspree, Netlify Forms, or your own server-side code.</p>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="How can I help?" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Write your message here" required></textarea>
+          </div>
+          <button class="button button-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo footer-logo" href="#home">DS<span>.</span></a>
+        <p>Danielle M. Sands · Strategic leader and emerging front-end developer.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="footer-github" href="https://github.com/ironskillet23" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Danielle M. Sands. All rights reserved.</p>
+      <p>Built with purpose, curiosity, HTML, and CSS.</p>
+    </div>
+  </footer>
 </body>
 </html>
